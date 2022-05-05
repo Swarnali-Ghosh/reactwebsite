@@ -1,0 +1,74 @@
+ .datadiv{
+    width: 90%;
+    margin:auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    padding: 70px 40px;
+}
+.link{
+    text-decoration: none;
+}
+.srcBlog{
+    width: 500px;
+    margin-bottom: 30px;
+    box-shadow:2px 5px 10px rgb(170, 170, 170);
+} 
+ .firstparah,.secondparah,.thirdparah,.forthparah{
+    color: rgb(255, 0, 98);
+    font-size: 24px;
+    text-align: center;
+}
+.firstpara,.secondpara,.thirdpara,.forthpara{
+font-size: 18px;
+padding: 14px 0px;
+color: rgb(34, 34, 54);
+}
+@media screen and (max-width:550px) {
+    .srcBlog{
+    width: 330px;
+    }
+    .firstparah,.secondparah,.thirdparah,.forthparah{
+        font-size: 21px;
+    }
+    .datadiv{
+        padding: 30px 15px;
+    }
+}
+@media screen and (max-width:400px) {
+    .srcBlog{
+    width: 300px;
+    }
+    .firstparah,.secondparah,.thirdparah,.forthparah{
+        font-size: 20.5px;
+    }
+    .firstpara,.secondpara,.thirdpara,.forthpara{
+        font-size: 17px;
+        padding: 11px 0px;
+        }
+}
+@media screen and (max-width:330px) {
+    .srcBlog{
+    width: 220px;
+    }
+    .firstparah,.secondparah,.thirdparah,.forthparah{
+        font-size: 19px;
+    }
+    .firstpara,.secondpara,.thirdpara,.forthpara{
+        font-size: 16px;
+        padding: 11px 0px;
+        }
+    .datadiv{
+        padding: 20px 15px;
+    }
+} 
+@media screen and (max-width:270px) {
+    .srcBlog{
+    width: 200px;
+    }
+    .datadiv{
+        padding: 20px 10px;
+    }
+} 

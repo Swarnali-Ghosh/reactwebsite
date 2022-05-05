@@ -1,0 +1,86 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.containerfluid{
+    padding: 0px 18px;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    margin: 26px 6px;
+    background-color: rgb(235, 241, 252);
+}
+.cardtext{
+    font-size: 14px;
+    padding-top: 8px;
+   margin-bottom: 8px;
+}
+.wrapper2{
+   margin: 4px 30px;
+   box-shadow: 2px 3px 9px rgb(180, 180, 180);
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.cardimgtop{
+    width: 250px;
+    height: 180px;
+}
+.cardbody{
+    padding: 10px;
+}
+.title{
+    color: rgb(52, 100, 255);
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-bottom: 7px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.colmd{
+background-color: rgb(208, 227, 255);
+width: 98%;
+margin-bottom: 15px;
+display: flex;
+justify-content: center;
+overflow-x: auto;
+}
+    .primary1{
+        background-color: rgb(0, 180, 111);
+        font-weight: 500;
+        color: rgb(250, 245, 245);
+        letter-spacing: 1.8px;
+        padding: 7px 8px;
+        margin: 6px 5px;
+        border-radius: 4px;
+        border: 1px solid transparent ;
+        cursor: pointer;
+     }
+     .primary1:hover{
+         transition: all 0.5s ease-in-out;
+         border: 1px solid rgb(9, 122, 252);
+         background-color: rgb(9, 122, 252);
+     }
+     .back{
+         line-height: 45px;
+         height: 45px;
+         margin: 30px 0px;
+        text-align: center;
+        color: rgb(34, 37, 255);
+        font-size: 21px;
+     }
+@media (max-width: 330px){
+    .card{
+        width: 200px;
+        height: 350px;
+        margin: 8px 6px;
+    }  
+    .cardimgtop{
+        width: 200px;
+        height: 130px;
+       
+    }
+}

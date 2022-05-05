@@ -1,0 +1,33 @@
+.galaryImage{
+    width: 550px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.slider_track_galary{
+    width: 550px;
+    height: 320px;
+}
+.gallery{
+    font-size: 22px; 
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 550;
+    color: blue;
+}
+.main_gallery{
+    padding-bottom: 100px;
+    padding-top: 20px;
+    overflow: hidden;
+    margin: 50px 0px;
+}
+@media screen and (max-width:380px) {
+    .gallery{
+        font-size: 17px;
+        padding-bottom: 26px;
+    }
+}

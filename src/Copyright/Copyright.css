@@ -1,0 +1,12 @@
+.footer2{
+    background-color: rgb(31, 27, 53);
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+    font-size: 22px;
+}
+@media screen and (max-width:500px) {
+    .footer2{
+        font-size: 16.8px;
+    }
+}

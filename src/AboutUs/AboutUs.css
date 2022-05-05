@@ -1,0 +1,133 @@
+.about{
+    font-size: 19px;
+	font-family: arial;
+    padding: 40px 10px; 
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.aboutus{
+    color: blue;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 550;
+}
+.aboutparaimgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding: 20px 30px;
+}
+.aboutimgsm{
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+}
+.aboutparasmg{
+    color: rgb(32, 32, 32);
+    width: 50%;
+}
+.aboutimgsmtag{
+    width: 80%;
+}
+.overview{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.abo{
+    color: rgb(0, 38, 255);
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+}
+.abf{
+ color: blueviolet;
+ padding: 10px 20px;
+}
+.pabf{
+    padding: 4px 20px;
+}
+.ddiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Cdiv2{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(176, 243, 243);
+    padding:14px  5px;
+    border-radius: 20px;
+    color: rgb(66, 11, 11);
+    animation: animat10 3s ease-in-out infinite;
+    width: 98%;
+}
+@media screen and (max-width:1070px ) {
+    .aboutimgsm{
+      height: 400px;
+    }
+}
+@media screen and (max-width:900px ) {
+    .aboutus{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .aboutparaimgdiv{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 4px;
+    }
+    .aboutparasmg{
+        width: 80%; 
+        text-align: left;
+        font-size: 16.5px;
+    }
+    .aboutimgsm{
+        width: 100%;
+        display: flex;
+        justify-content: center; 
+        padding-top: 20px;
+    }
+    .abf{
+        font-size: 17px;
+        padding: 10px 10px;
+       }
+       .pabf{
+        font-size: 17px;
+           padding: 4px 10px;
+       }
+}
+@media screen and (max-width:450px ) {
+.aboutimgsm{
+    height: 300px;
+  }
+}
+@media screen and (max-width:300px ) {
+    .aboutus{
+        padding-top: 4px;
+        font-size: 15px;
+    }
+    .aboutimgsmtag{
+        height: 250px;
+    }
+    .aboutparasmg{
+        width: 90%; 
+        text-align: left;
+        font-size: 14px;
+    }
+  
+    .abf{
+        font-size: 14px;
+        padding: 10px 10px;
+       }
+       .pabf{
+        font-size: 14px;
+           padding: 4px 10px;
+       }
+} 

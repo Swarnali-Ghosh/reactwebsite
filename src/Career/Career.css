@@ -1,0 +1,88 @@
+.Career_page{
+width: 94%;
+margin: auto;
+}
+.Career{
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+}
+span.CHlight{
+    font-size: 22px;
+    font-weight: 550;
+    color: rgb(0, 17, 250);
+    padding: 10px;
+    animation: an1 1s ease-in-out 1;
+}
+@keyframes an1{
+    0%{
+        opacity: 0.4;
+        transform: translateY(-24px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+span.sAbout{
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    height: 60%;
+}
+span.sAbout strong{
+    word-break:break break-all;
+}
+span.span_border1{
+    background: rgb(71, 255, 200);
+	width:0%;
+	margin-top: 14px;
+	height:3px;
+	margin-bottom: 4px;
+	animation: animatee 5s ease-in-out infinite;
+}
+@keyframes animatee{
+	0%{
+		width:5%;
+	}
+	50%{
+		width:80%;
+	}
+	100%{
+		width:5%;
+	}
+}
+.Cdiv{
+    display: flex;
+    margin: 10px 3px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(176, 243, 243);
+    padding:14px  5px;
+    border-radius: 20px;
+    color: rgb(66, 11, 11);
+    animation: animat10 3s ease-in-out infinite;
+}
+@keyframes animat10{
+    0%{
+       
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(18px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@media (max-width: 340px){
+    span.sAbout{
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .Cdiv{
+        width: 94%;
+        margin: auto;
+    }
+} 
