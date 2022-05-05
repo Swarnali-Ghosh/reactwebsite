@@ -25,12 +25,12 @@ const AboutUs = () => {
                 </div>
                 <div className="ddiv Cdiv2">
                     <h3 className="abf">Location</h3>
-                    <p className="pabf"><i class="fa-solid fa-location-dot"></i> 10/21,J.C.Ghosh Lane,Kolkata-700066.</p>
+                    <p className="pabf"><i className="fa-solid fa-location-dot"></i> 10/21,J.C.Ghosh Lane,Kolkata-700066.</p>
                 </div>
                 <div className="ddiv Cdiv2">
                     <h3 className="abf">Contact Us</h3>
-                    <p className="pabf"><i class="fa-solid fa-phone"></i> 11111 11111</p>
-                    <p className="pabf"><i class="fa-solid fa-phone"></i> 00000 00000</p>
+                    <p className="pabf"><i className="fa-solid fa-phone"></i> 11111 11111</p>
+                    <p className="pabf"><i className="fa-solid fa-phone"></i> 00000 00000</p>
                 </div>
                 <div className="ddiv Cdiv2">
                     <h3 className="abf">Our vision</h3>

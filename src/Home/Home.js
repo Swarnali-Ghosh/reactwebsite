@@ -15,7 +15,7 @@ import {Helmet} from "react-helmet";
 const Home = () => {
     return (
         <> 
-        <Helmet title='Hospital website'></Helmet>
+        <Helmet title='Hospital'></Helmet>
             <Navbar/> 
             <Header />  
             <AboutUs/> 
