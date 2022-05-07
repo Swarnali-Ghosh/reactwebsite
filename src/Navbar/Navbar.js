@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
       <>
       <nav className='mainNavbar'>
-          <div className='mainNavLogo'>Company Name Logo</div>
+          <div className='mainNavLogo'>Hospital Name Logo</div>
           <ul className={isMobile ? "nav-links-mobile" : "nav-links"}  onClick={()=>setIsMobile(false)} >
              <Link to="/" className='mainNavLinks'><li className='mainNavLi'>Home</li></Link> 
              <a href="#about" className='mainNavLinks'><li className='mainNavLi'>About</li></a>

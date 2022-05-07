@@ -7,7 +7,7 @@ function OnlineServices() {
         <>
             {data.map((service) => {
                 return (
-                    <>
+                    
                         <div key={service._id}>
                             <h1 className='headh1' >{service.headh1}</h1>
                             <div className="OScontainer" >
@@ -24,7 +24,7 @@ function OnlineServices() {
 
                             </div>
                         </div>
-                    </>
+                    
                 )
             })}
         </>

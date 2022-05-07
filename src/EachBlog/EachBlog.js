@@ -1,15 +1,13 @@
 import React,{useState} from 'react'
 import './EachBlog.css'
-import {Helmet} from 'react-helmet'
 import { Link, useParams } from 'react-router-dom';
 import EachBlogData from './EachBlogData';
 const EachBlog = () => {
     const {id} = useParams();
     const [ data] = useState(EachBlogData.find((data) => data.id === id));
-   
+    document.title = `Blog Section`
   return (
     <>
-    <Helmet title='Blog Section'></Helmet>
     <Link to="/"><button className="btnR"> <i className="fa-solid fa-arrow-left"></i> Back to Home</button></Link>
             <Link to={`/readeachblog/${data.id}`} className='link'>
             <div className='datadiv' key={data.id}>
@@ -22,8 +20,7 @@ const EachBlog = () => {
             <p className='thirdpara'>{data.thirdpara}</p>
             <h1 className='forthparah'>{data.forthparah}</h1>
             <p className='forthpara'>{data.forthpara}</p>
-            </div>
-          
+            </div> 
             </Link>
    </>
   )

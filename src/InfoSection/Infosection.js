@@ -26,11 +26,8 @@ const Infosection = () => {
         <Slider {...settings}>
             {
                 datas.map((data) => {
-                    return (
-                        <>
-                        
-                       
-                        <div className='slider_track' >
+                    return (  
+                        <div className='slider_track' key={data.id} >
                         <div className='cd_info'>
                             <div>
                                 <img className="cus department_image" src={data.department_image} alt="" />
@@ -40,9 +37,7 @@ const Infosection = () => {
                                 <h2 className='c_comment' >{data.c_comment}</h2>
                             </div>
                             </div>
-                            </div>
-                        
-                        </>
+                            </div>          
                     )
                 })
             }

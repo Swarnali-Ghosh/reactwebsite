@@ -41,8 +41,8 @@ function Footer() {
                     <div className="spanDIV">
                         <span className="sp">Contact Us</span>
                         <span className="span_border"></span>
-                        <span className='contactt'><i class="fa-solid fa-phone"></i> 11111 11111</span>
-                        <span className='contactt'><i class="fa-solid fa-location-dot"></i> 10/21,J.C.Ghosh Lane,Kolkata-700066</span>
+                        <span className='contactt'><i className="fa-solid fa-phone"></i> 11111 11111</span>
+                        <span className='contactt'><i className="fa-solid fa-location-dot"></i> 10/21,J.C.Ghosh Lane,Kolkata-700066</span>
                     </div>
                 </div>
             </div>

@@ -28,12 +28,10 @@ const Blog = () => {
                             {data.map((values) => {
                                 const { id, title, cardtitle, cardtext, srcd } = values;
                                 return (
-                                    <>
-                                    
                                         <div className='wrapper2' key={id}>
                                             <div className="card" >
                                                 <img src={srcd} className="cardimgtop" alt=" " />
-                                                <div class="cardbody">
+                                                <div className="cardbody">
                                                     <h6 className='title'>{title}</h6>
                                                     <h5 className="cardtitle"><b>{cardtitle}</b></h5>
                                                     <p className="cardtext">{cardtext}</p>
@@ -41,7 +39,6 @@ const Blog = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </>
                                 );
                             })}
 

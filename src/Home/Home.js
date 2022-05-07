@@ -11,11 +11,11 @@ import Header from '../Header/Header';
 import Infosection from '../InfoSection/Infosection';
 import Gallery from '../Gallery/Gallery';
 import Copyright from '../Copyright/Copyright';
-import {Helmet} from "react-helmet";
+
 const Home = () => {
+    document.title = `Hospital Website`   
     return (
         <> 
-        <Helmet title='Hospital'></Helmet>
             <Navbar/> 
             <Header />  
             <AboutUs/> 
