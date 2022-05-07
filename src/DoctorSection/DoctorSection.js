@@ -37,11 +37,9 @@ const DoctorSection = () => {
                             <span className="d_name"><b>{d_name}</b></span>
                             <span className="d_info">{d_info}</span>
                             <div>
-                                <a href=" " target="_self">
                                    <div><button className="primary" 
                                     onClick={()=>{alert("Call us  now on 000 0000 0000 or 111 1111 1111 for booking an appoimentment")}}>
                                     {primary}</button> </div> 
-                                </a>
                             </div>
                         </div>
                 );
