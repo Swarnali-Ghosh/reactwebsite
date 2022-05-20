@@ -2,6 +2,9 @@
 width: 94%;
 margin: auto;
 }
+.healthimg{
+    width: 30%;
+}
 .Career{
     display: flex;
     flex-direction: column;
@@ -76,6 +79,11 @@ span.span_border1{
         transform: translateY(0px);
     }
 }
+@media (max-width: 640px){
+    .healthimg{
+        width: 60%;
+    }
+} 
 @media (max-width: 340px){
     span.sAbout{
         font-size: 16px;
