@@ -6,6 +6,72 @@
     margin: auto;
     box-sizing: border-box;
 }
+div.bg{
+	color:rgb(0, 81, 255);
+	font-size: 45px;
+	position: absolute;
+	opacity: 0.17;
+	animation: animate691 28s ease-in-out infinite;
+}
+@keyframes animate691{
+	0%{
+		transform: translateX(0px);
+	}
+	40%{
+		transform: translateY(400px);
+	}
+	70%{
+		transform: translateY(-200px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+}
+div.bg:nth-child(1){
+	bottom: 8%;
+	left: 4%;
+	
+}
+div.bg:nth-child(2){
+	bottom: 18%;
+	left: 34%;
+	
+}
+div.bg:nth-child(3){
+	bottom: 8%;
+	left: 44%;
+	
+}
+div.bg:nth-child(4){
+	bottom: 14%;
+	left: 62%;
+	
+}
+div.bg:nth-child(7){
+	top: 18%;
+	right: 80%;
+	
+}
+div.bg:nth-child(6){
+	bottom: 48%;
+	right: 77%;
+	
+}
+div.bg:nth-child(5){
+	bottom: 35%;
+	right: 4%;
+	
+}
+div.bg:nth-child(8){
+	bottom: 4%;
+	left: 83%;
+	
+}
+div.bg:nth-child(9){
+	top: 4%;
+	right: 8%;
+	
+}
 .aboutus{
     color: blue;
     padding-top: 50px;
