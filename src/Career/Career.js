@@ -12,7 +12,7 @@ function Career() {
 
                 </div>
                 <div className="Cdiv">
-                
+                <img src="./images1/Health.png" alt="" className="healthimg"/>
                     <span className='sAbout' id="best">A career at <strong>xxxxxxxx Hospital</strong> means an opportunity to explore your potential,
                         continuous growth and the joy of working on the latest
                         technologies alongside the best minds in the industry.</span>
