@@ -4,6 +4,16 @@ const AboutUs = () => {
     return (
         <>
             <div id="about" className="about">
+                <div className="bg"><i className="fa fa-stethoscope"></i></div>
+                <div className="bg"><i className="fa fa-heartbeat"></i></div>
+                <div className="bg"><i className="fa fa-plus-square"></i></div>
+                <div className="bg"><i className="fa fa-heartbeat"></i></div>
+                <div className="bg"><i className="fa fa-heartbeat"></i></div>
+                <div className="bg"><i className="fa fa-stethoscope"></i></div>
+                <div className="bg"><i className="fa fa-plus-square"></i></div>
+                <div className="bg"><i className="fa fa-plus-square"></i></div>
+                <div className="bg"><i className="fa fa-plus-square"></i></div>
+                <div className="bg"><i className="fa fa-heartbeat"></i></div>
                 <div className="aboutus">ABOUT US</div>
 
                 <div className="aboutparaimgdiv">
