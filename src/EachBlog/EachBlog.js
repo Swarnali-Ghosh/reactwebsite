@@ -9,7 +9,7 @@ const EachBlog = () => {
   return (
     <>
     <Link to="/"><button className="btnR"> <i className="fa-solid fa-arrow-left"></i> Back to Home</button></Link>
-            <Link to={`/readeachblog/${data.id}`} className='link'>
+            <Link to={`/readeachblog/${data.id}`} className='link'/>
             <div className='datadiv' key={data.id}>
             <img className='srcBlog' src={data.srcBlog} alt={data.id}/> 
             <h1 className='firstparah'>{data.firstparah}</h1>
@@ -21,7 +21,7 @@ const EachBlog = () => {
             <h1 className='forthparah'>{data.forthparah}</h1>
             <p className='forthpara'>{data.forthpara}</p>
             </div> 
-            </Link>
+            
    </>
   )
 }
