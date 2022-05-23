@@ -74,56 +74,7 @@ const EachBlogData = [
     secondpara:"Each of the cells of the body have a tightly regulated system that controls their growth, maturity, reproduction and eventual death. Cancer begins when cells in a part of the body start to grow out of control. There are many kinds of cancer, but they all start because of out-of-control growth of abnormal cells.",
     thirdpara:"Medical professionals who practice oncology are called Cancer specialists or oncologists. These oncologists have several specific roles. They help in diagnosis of the cancer, help in staging the cancer and grading the aggressive nature of the cancer.",
     forthpara:"The most important diagnostic tool remains the clinical history of the patient. Common symptoms that point towards cancer include fatigue, weight loss, unexplained anemia, fever of unknown origin etc.Oncology depends on diagnostic tools like biopsy or removal of bits of the tumour tissue and examining it under the microscope. Other diagnostic tools include endoscopy for the gastrointestinal tract, imaging studies like X-rays, CT scanning, MRI scanning, ultrasound and other radiological techniques, Scintigraphy, Single Photon Emission Computed Tomography, Positron emission tomography and nuclear medicine techniques etc.Common methods include blood tests for biological or tumor markers. Rise of these markers in blood may be indicative of the cancer."
-},
-
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// },
-// {
-//     srcBlog:"",
-//     firstpara:"",
-//     secondpara:"",
-//     thirdpara:""
-// }
+}
 
 ]
 module.exports = EachBlogData;
