@@ -4,6 +4,7 @@ margin: auto;
 }
 .healthimg{
     width: 30%;
+    height:220px;
 }
 .Career{
     display: flex;
