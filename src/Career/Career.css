@@ -4,7 +4,6 @@ margin: auto;
 }
 .healthimg{
     width: 30%;
-    height:150px;
 }
 .Career{
     display: flex;
@@ -83,7 +82,6 @@ span.span_border1{
 @media (max-width: 640px){
     .healthimg{
         width: 60%;
-	height:200px;
     }
 } 
 @media (max-width: 340px){
