@@ -1,8 +1,15 @@
-import "./AboutUs.css";
-
+mport "./AboutUs.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React,{useEffect} from "react";
 const AboutUs = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, [])
+
     return (
         <>
+
             <div id="about" className="about">
                 <div className="bg"><i className="fa fa-stethoscope"></i></div>
                 <div className="bg"><i className="fa fa-heartbeat"></i></div>
@@ -18,7 +25,7 @@ const AboutUs = () => {
 
                 <div className="aboutparaimgdiv">
 
-                    <div className="aboutparasmg">
+                    <div className="aboutparasmg" data-aos="zoom-out">
                         We started our journey in 2008 with a modest number of 40 beds, xxxxx xxxxx
                         Specialist Hospital today is the largest and busiest hospital in Eastern Region. Not
                         only does it look into almost all aspects of medical care by renowned doctors, but
@@ -27,30 +34,32 @@ const AboutUs = () => {
                         section, modular OT and various super specialty clinics making it the one stop
                         destination for all patients with illness, critical or otherwise.
                     </div>
-                   
 
-                    <div className="aboutimgsm">
+
+                    <div className="aboutimgsm" data-aos="zoom-in">
                         <img className="aboutimgsmtag" src="./images1/hospital.jpg" alt="" />
                     </div>
                 </div>
-                <div className="ddiv Cdiv2">
+                <div className="ddiv Cdiv2" >
                     <h3 className="abf">Location</h3>
                     <p className="pabf"><i className="fa-solid fa-location-dot"></i> 10/21,J.C.Ghosh Lane,Kolkata-700066.</p>
                 </div>
-                <div className="ddiv Cdiv2">
+                <div className="ddiv Cdiv2" >
                     <h3 className="abf">Contact Us</h3>
                     <p className="pabf"><i className="fa-solid fa-phone"></i> 11111 11111</p>
                     <p className="pabf"><i className="fa-solid fa-phone"></i> 00000 00000</p>
                 </div>
-                <div className="ddiv Cdiv2">
+                <div className="ddiv Cdiv2" >
                     <h3 className="abf">Our vision</h3>
                     <p className="pabf">Is to reach to the lowest strata of the society with high class medical services.</p>
                 </div>
-                <div className=" ddiv Cdiv2">
+                <div className=" ddiv Cdiv2" >
                     <h3 className="abf">Our mission</h3>
                     <p className="pabf">We aim to provide high class medical services in a clean and hygenic environment with top class infrastructure at affordable prices</p>
                 </div>
+                
             </div>
+           
         </>
     )
 };
