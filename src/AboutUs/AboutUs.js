@@ -1,11 +1,6 @@
 mport "./AboutUs.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import React,{useEffect} from "react";
 const AboutUs = () => {
-    useEffect(() => {
-        AOS.init({ duration: 2000 });
-      }, [])
+  
 
     return (
         <>
@@ -25,7 +20,7 @@ const AboutUs = () => {
 
                 <div className="aboutparaimgdiv">
 
-                    <div className="aboutparasmg" data-aos="zoom-out">
+                    <div className="aboutparasmg" >
                         We started our journey in 2008 with a modest number of 40 beds, xxxxx xxxxx
                         Specialist Hospital today is the largest and busiest hospital in Eastern Region. Not
                         only does it look into almost all aspects of medical care by renowned doctors, but
@@ -36,7 +31,7 @@ const AboutUs = () => {
                     </div>
 
 
-                    <div className="aboutimgsm" data-aos="zoom-in">
+                    <div className="aboutimgsm" >
                         <img className="aboutimgsmtag" src="./images1/hospital.jpg" alt="" />
                     </div>
                 </div>
