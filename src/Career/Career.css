@@ -83,6 +83,7 @@ span.span_border1{
 @media (max-width: 640px){
     .healthimg{
         width: 60%;
+	height:200px;
     }
 } 
 @media (max-width: 340px){
